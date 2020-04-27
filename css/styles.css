@@ -1,0 +1,193 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+  font-weight: 400;
+  color: #8f8f8f;
+}
+
+
+
+
+/* Headings */
+
+.card-heading {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+/* General Classes */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Download Buttons */
+
+.download-buttons {
+  margin: 4% 4% 4% 0;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 2.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-weight: 300;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* Title Section */
+
+
+#title .container-fluid {
+  padding: 2% 15% 5%;
+  text-align: left;
+}
+
+
+.dog {
+  transform:rotate(25deg);
+  width: 50%;
+  margin: 1px;
+  position: absolute;
+  right: 25%;
+
+}
+
+
+
+/* Features Section */
+
+
+#features {
+  padding: 5% 10%;
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icons {
+  color: #ef8172;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+
+
+
+/* Testimonials Section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 2%;
+}
+
+.carousel-item {
+  padding: 7% 10%;
+}
+
+
+#press {
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.press-images {
+  width: 17%;
+  margin: 2% 2% 5%;
+}
+
+
+/* Pricing Section */
+  #pricing {
+    padding: 100px;
+  }
+
+  .card-column {
+    padding: 2% 3%;
+  }
+
+/* Media Query fo mobile and tablet sizing --> adjusting the title section */
+
+@media (max-width: 1071px) {
+  #title {
+    text-align: center;
+  }
+
+  .dog {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+
+
+/* Footer Section */
+  #footer {
+    padding: 3% 15%;
+  }
+
+  .footer-icons:hover {
+    color: blue;
+  }
+
+  .copy-right:hover {
+    color: black;
+  }
+
+/* ......................................................... Mohammed Basioni ......................................................... */
