@@ -165,7 +165,7 @@ p {
 /* Media Query fo mobile and tablet sizing --> adjusting the title section */
 
 @media (max-width: 1071px) {
-  #title {
+  #title .container-fluid {
     text-align: center;
   }
 
